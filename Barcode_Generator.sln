@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barcode_Generator", "Barcode_Generator.csproj", "{5C512D4C-8D02-4C3E-B30F-0E1547D4653B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Layer", "Data_Layer\Data_Layer.csproj", "{B6638FCC-6C94-4773-BA01-770686F66815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business_Layer", "Business_Layer\Business_Layer.csproj", "{342AE00A-D530-4C03-965A-A67CDCF0C2A5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Make_Barcode", "Make_Barcode\Make_Barcode.vdproj", "{A7FBC2EB-DB51-4498-92D9-EB950128EF89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C512D4C-8D02-4C3E-B30F-0E1547D4653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C512D4C-8D02-4C3E-B30F-0E1547D4653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C512D4C-8D02-4C3E-B30F-0E1547D4653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C512D4C-8D02-4C3E-B30F-0E1547D4653B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6638FCC-6C94-4773-BA01-770686F66815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6638FCC-6C94-4773-BA01-770686F66815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6638FCC-6C94-4773-BA01-770686F66815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6638FCC-6C94-4773-BA01-770686F66815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342AE00A-D530-4C03-965A-A67CDCF0C2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342AE00A-D530-4C03-965A-A67CDCF0C2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342AE00A-D530-4C03-965A-A67CDCF0C2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342AE00A-D530-4C03-965A-A67CDCF0C2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FBC2EB-DB51-4498-92D9-EB950128EF89}.Debug|Any CPU.ActiveCfg = Debug
+		{A7FBC2EB-DB51-4498-92D9-EB950128EF89}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
